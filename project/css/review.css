@@ -1,0 +1,26 @@
+#feedback {
+  max-width: 60%;
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+  border: solid 1px #f1f1f1;
+  background: #fbfbfb;
+  box-shadow: #e6e6e6 0 0 4px ;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 720px) {
+  #feedback{
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  #feedback{
+    padding: 10px;
+  }
+}
+
+#fh2{
+ padding: 2px 15px;
+ color: #ff4d4d;
