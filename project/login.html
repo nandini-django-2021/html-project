@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login & Registration Form</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="dist/pickmeup.min.js"></script>
+    <script type="text/javascript" src="dist/handleCounter.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/pickmeup.css">
+    <link rel="stylesheet" type="text/css" href="css/handle-counter.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="dist/jquery.scrollUp.js"></script>
+     <script type="text/javascript" src="dist/demo.js"></script>
+	 <script type="text/javascript" src="dist/demo2.js"></script>
+</head>
+
+<body>
+	<header class="tm-header">
+        <img class="tm-logo" src="images/Royal_Hotel_hd.JPG" alt="Royal Hotel">
+        <nav class="tm-nav">
+       <div>
+            <ul>
+                <li class="tm-list"><a href="index.html">Home</a></li>
+                <li class="tm-list"><a href="explore.html">Explore</a></li>
+                <li class="tm-list"><a href="rooms.html">Rooms</a></li>
+                <li class="tm-list"><a href="bb.html">Booking</a></li>
+                <li class="tm-list"><a href="login.html">Register/login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+            </div>
+        </nav>
+    </header>
+    
+    <style>
+		body {
+		  background-image: url('images/deluxroom.png');
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+		}
+		</style>
+    <section class="tm-main">
+           <p>Login/register</p>
+    </section>
+	
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>Login</button>
+				</form>
+			</div>
+	</div>
+</body>
+
+</html>
